@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(255, 250, 223);
+    font-family: 'Exo 2', sans-serif;
+}
+
+#heading {
+    text-align: center;
+}
+
+.write-up {
+
+    background-color: rgb(197, 163, 49);
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 0px auto;
+    padding: 50px 80px 50px 80px;
+    margin-top: 60px;
+
+}
+
+.emoji-face {
+    width: 43px;
+    height: 43px;
+    background-color: rgb(255, 215, 34);
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.eye1 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(66, 1, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+}
+
+.eye2 {
+    width: 5px;
+    height: 5px;
+    background-color: rgb(66, 1, 1);
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 29px;
+}
+
+.mouth {
+    width: 29px;
+    height: 13px;
+    background-color: brown;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    top: 25px;
+    left: 7px;
+overflow: hidden;}
+
+  
+
+.tongue {
+    width: 19px;
+    height: 9px;
+    background-color: rgb(255, 164, 232);
+    position: absolute;
+    top: 3.7px;
+    left: 5.5px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.mouth-shock {
+    width: 14px;
+    height: 15px;
+    background-color: brown;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    border-radius: 50%;
+}
+
+.mouth-speechless {
+    width: 28px;
+    height: 2.5px;
+    background-color: brown;
+    position: absolute;
+    top: 25px;
+    left: 9px;
+}
